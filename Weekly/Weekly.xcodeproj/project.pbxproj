@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F1E9AC112F1641F00BF6440 /* WeeklyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */; };
+		4F1E9AC212F1641F00BF6440 /* WeekView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E9ABE12F1641F00BF6440 /* WeekView.m */; };
+		4F1E9AC312F1641F00BF6440 /* WeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */; };
+		4F1E9AC712F1642500BF6440 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E9AC412F1642500BF6440 /* main.m */; };
+		4F1E9ACD12F1645200BF6440 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E9ACB12F1645200BF6440 /* MainMenu.xib */; };
+		4F1E9ACF12F1645800BF6440 /* WeekView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E9ACE12F1645800BF6440 /* WeekView.xib */; };
+		4F1E9AD512F1647100BF6440 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E9AD312F1647100BF6440 /* InfoPlist.strings */; };
+		4F1E9B8112F16B5100BF6440 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E9B8012F16B5100BF6440 /* Credits.html */; };
+		4F1E9BEC12F19A6E00BF6440 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E9BEB12F19A6E00BF6440 /* calendar.png */; };
+		4FE85BE613001C3F00C58F33 /* HKLoginItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE85BE513001C3F00C58F33 /* HKLoginItem.m */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		4F1E9ABB12F1641F00BF6440 /* WeeklyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeeklyAppDelegate.h; path = Classes/WeeklyAppDelegate.h; sourceTree = "<group>"; };
+		4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeeklyAppDelegate.m; path = Classes/WeeklyAppDelegate.m; sourceTree = "<group>"; };
+		4F1E9ABD12F1641F00BF6440 /* WeekView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekView.h; path = Classes/WeekView.h; sourceTree = "<group>"; };
+		4F1E9ABE12F1641F00BF6440 /* WeekView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekView.m; path = Classes/WeekView.m; sourceTree = "<group>"; };
+		4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeekViewController.h; path = Classes/WeekViewController.h; sourceTree = "<group>"; };
+		4F1E9AC012F1641F00BF6440 /* WeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeekViewController.m; path = Classes/WeekViewController.m; sourceTree = "<group>"; };
+		4F1E9AC412F1642500BF6440 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Other Sources/main.m"; sourceTree = "<group>"; };
+		4F1E9AC612F1642500BF6440 /* Weekly_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weekly_Prefix.pch; path = "Other Sources/Weekly_Prefix.pch"; sourceTree = "<group>"; };
+		4F1E9ACC12F1645200BF6440 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4F1E9ACE12F1645800BF6440 /* WeekView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WeekView.xib; path = Resources/WeekView.xib; sourceTree = "<group>"; };
+		4F1E9AD412F1647100BF6440 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4F1E9B4012F166FB00BF6440 /* Weekly-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Weekly-Info.plist"; path = "Resources/Weekly-Info.plist"; sourceTree = "<group>"; };
+		4F1E9B8012F16B5100BF6440 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = Credits.html; path = Resources/Credits.html; sourceTree = "<group>"; };
+		4F1E9BEB12F19A6E00BF6440 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calendar.png; path = Resources/calendar.png; sourceTree = "<group>"; };
+		4FE85BE413001C3F00C58F33 /* HKLoginItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HKLoginItem.h; path = Classes/HKLoginItem.h; sourceTree = "<group>"; };
+		4FE85BE513001C3F00C58F33 /* HKLoginItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HKLoginItem.m; path = Classes/HKLoginItem.m; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Weekly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weekly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E9ABB12F1641F00BF6440 /* WeeklyAppDelegate.h */,
+				4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */,
+				4F1E9ABD12F1641F00BF6440 /* WeekView.h */,
+				4F1E9ABE12F1641F00BF6440 /* WeekView.m */,
+				4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */,
+				4F1E9AC012F1641F00BF6440 /* WeekViewController.m */,
+				4FE85BE413001C3F00C58F33 /* HKLoginItem.h */,
+				4FE85BE513001C3F00C58F33 /* HKLoginItem.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Weekly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Weekly */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = Weekly;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E9AC412F1642500BF6440 /* main.m */,
+				4F1E9AC612F1642500BF6440 /* Weekly_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E9BEB12F19A6E00BF6440 /* calendar.png */,
+				4F1E9B8012F16B5100BF6440 /* Credits.html */,
+				4F1E9B4012F166FB00BF6440 /* Weekly-Info.plist */,
+				4F1E9ACE12F1645800BF6440 /* WeekView.xib */,
+				4F1E9AD312F1647100BF6440 /* InfoPlist.strings */,
+				4F1E9ACB12F1645200BF6440 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Weekly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Weekly" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Weekly;
+			productInstallPath = "$(HOME)/Applications";
+			productName = Weekly;
+			productReference = 8D1107320486CEB800E47090 /* Weekly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Weekly" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Weekly */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Weekly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E9ACD12F1645200BF6440 /* MainMenu.xib in Resources */,
+				4F1E9ACF12F1645800BF6440 /* WeekView.xib in Resources */,
+				4F1E9AD512F1647100BF6440 /* InfoPlist.strings in Resources */,
+				4F1E9B8112F16B5100BF6440 /* Credits.html in Resources */,
+				4F1E9BEC12F19A6E00BF6440 /* calendar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E9AC112F1641F00BF6440 /* WeeklyAppDelegate.m in Sources */,
+				4F1E9AC212F1641F00BF6440 /* WeekView.m in Sources */,
+				4F1E9AC312F1641F00BF6440 /* WeekViewController.m in Sources */,
+				4F1E9AC712F1642500BF6440 /* main.m in Sources */,
+				4FE85BE613001C3F00C58F33 /* HKLoginItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F1E9ACB12F1645200BF6440 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1E9ACC12F1645200BF6440 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4F1E9AD312F1647100BF6440 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F1E9AD412F1647100BF6440 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/Weekly_Prefix.pch";
+				INFOPLIST_FILE = "Resources/Weekly-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Weekly;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Weekly_Prefix.pch;
+				INFOPLIST_FILE = "Weekly-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = Weekly;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Weekly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Weekly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

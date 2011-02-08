@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4F17E36312F0C905009521EF /* Weekly */;
+		activeTarget = 8D1107260486CEB800E47090 /* Weekly */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* Weekly */,
+		);
+		breakpoints = (
+			4FE85C9A13004DE100C58F33 /* WeekViewController.m:25 */,
+		);
+		codeSenseManager = 4F17E37412F0C918009521EF /* Code sense */;
+		executables = (
+			4F17E36312F0C905009521EF /* Weekly */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					601,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					561,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 318786791;
+			PBXWorkspaceStateSaveDate = 318786791;
+		};
+		perUserProjectItems = {
+			4F1E9B3412F166E000BF6440 = 4F1E9B3412F166E000BF6440 /* PBXTextBookmark */;
+			4F1E9B9812F170CB00BF6440 = 4F1E9B9812F170CB00BF6440 /* PlistBookmark */;
+			4F1E9C5B12F1A0CA00BF6440 = 4F1E9C5B12F1A0CA00BF6440 /* PBXBookmark */;
+			4F6FF9F312FFFBC700A0D7CE = 4F6FF9F312FFFBC700A0D7CE /* PBXTextBookmark */;
+			4F6FF9F912FFFBC700A0D7CE = 4F6FF9F912FFFBC700A0D7CE /* PBXTextBookmark */;
+			4F6FFA0912FFFC6600A0D7CE = 4F6FFA0912FFFC6600A0D7CE /* PBXTextBookmark */;
+			4FE85C3D13001FDA00C58F33 = 4FE85C3D13001FDA00C58F33 /* PBXTextBookmark */;
+			4FE85C3E13001FDA00C58F33 = 4FE85C3E13001FDA00C58F33 /* PBXTextBookmark */;
+			4FE85C3F13001FDA00C58F33 = 4FE85C3F13001FDA00C58F33 /* PBXTextBookmark */;
+			4FE85C5F1300217E00C58F33 = 4FE85C5F1300217E00C58F33 /* PBXTextBookmark */;
+			4FE85C601300217E00C58F33 = 4FE85C601300217E00C58F33 /* PBXTextBookmark */;
+			4FE85C641300269B00C58F33 = 4FE85C641300269B00C58F33 /* PBXTextBookmark */;
+			4FE85C8813004CFC00C58F33 /* PBXTextBookmark */ = 4FE85C8813004CFC00C58F33 /* PBXTextBookmark */;
+			4FE85C8913004CFC00C58F33 /* PBXTextBookmark */ = 4FE85C8913004CFC00C58F33 /* PBXTextBookmark */;
+			4FE85C8A13004CFC00C58F33 /* PBXTextBookmark */ = 4FE85C8A13004CFC00C58F33 /* PBXTextBookmark */;
+			4FE85CB513004EE300C58F33 /* PlistBookmark */ = 4FE85CB513004EE300C58F33 /* PlistBookmark */;
+			4FE85CB613004EE300C58F33 /* PBXTextBookmark */ = 4FE85CB613004EE300C58F33 /* PBXTextBookmark */;
+			4FE85CB713004EE300C58F33 /* PBXTextBookmark */ = 4FE85CB713004EE300C58F33 /* PBXTextBookmark */;
+			4FE85CB813004EE300C58F33 /* PBXTextBookmark */ = 4FE85CB813004EE300C58F33 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 4F17E37312F0C918009521EF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4F17E36312F0C905009521EF /* Weekly */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Weekly;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	4F17E37312F0C918009521EF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	4F17E37412F0C918009521EF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4F1E9ABB12F1641F00BF6440 /* WeeklyAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 388}}";
+			sepNavSelRange = "{294, 0}";
+			sepNavVisRange = "{0, 301}";
+		};
+	};
+	4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1062, 944}}";
+			sepNavSelRange = "{861, 0}";
+			sepNavVisRange = "{859, 458}";
+		};
+	};
+	4F1E9ABD12F1641F00BF6440 /* WeekView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 402}}";
+			sepNavSelRange = "{173, 0}";
+			sepNavVisRange = "{0, 283}";
+		};
+	};
+	4F1E9ABE12F1641F00BF6440 /* WeekView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 608}}";
+			sepNavSelRange = "{152, 0}";
+			sepNavVisRange = "{153, 435}";
+		};
+	};
+	4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 388}}";
+			sepNavSelRange = "{80, 16}";
+			sepNavVisRange = "{0, 419}";
+		};
+	};
+	4F1E9AC012F1641F00BF6440 /* WeekViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 1424}}";
+			sepNavSelRange = "{217, 0}";
+			sepNavVisRange = "{1411, 464}";
+		};
+	};
+	4F1E9AC412F1642500BF6440 /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 388}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 121}";
+		};
+	};
+	4F1E9AC612F1642500BF6440 /* Weekly_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 402}}";
+			sepNavSelRange = "{16, 0}";
+			sepNavVisRange = "{0, 54}";
+		};
+	};
+	4F1E9AD412F1647100BF6440 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 446}}";
+			sepNavSelRange = "{45, 0}";
+			sepNavVisRange = "{0, 45}";
+		};
+	};
+	4F1E9B3412F166E000BF6440 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AD412F1647100BF6440 /* English */;
+		name = "InfoPlist.strings: 3";
+		rLen = 0;
+		rLoc = 45;
+		rType = 0;
+		vrLen = 45;
+		vrLoc = 0;
+	};
+	4F1E9B8012F16B5100BF6440 /* Credits.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 402}}";
+			sepNavSelRange = "{59, 0}";
+			sepNavVisRange = "{0, 202}";
+		};
+	};
+	4F1E9B9812F170CB00BF6440 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4F1E9B4012F166FB00BF6440 /* Weekly-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/gustaf/Documents/Development/weekly/Weekly/Resources/Weekly-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	4F1E9C5B12F1A0CA00BF6440 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 4F1E9BEB12F19A6E00BF6440 /* calendar.png */;
+	};
+	4F6FF9F312FFFBC700A0D7CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABD12F1641F00BF6440 /* WeekView.h */;
+		name = "WeekView.h: 14";
+		rLen = 0;
+		rLoc = 173;
+		rType = 0;
+		vrLen = 283;
+		vrLoc = 0;
+	};
+	4F6FF9F912FFFBC700A0D7CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC612F1642500BF6440 /* Weekly_Prefix.pch */;
+		name = "Weekly_Prefix.pch: 2";
+		rLen = 0;
+		rLoc = 16;
+		rType = 0;
+		vrLen = 54;
+		vrLoc = 0;
+	};
+	4F6FFA0912FFFC6600A0D7CE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9B8012F16B5100BF6440 /* Credits.html */;
+		name = "Credits.html: 3";
+		rLen = 0;
+		rLoc = 59;
+		rType = 0;
+		vrLen = 202;
+		vrLoc = 0;
+	};
+	4FE85BE413001C3F00C58F33 /* HKLoginItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 388}}";
+			sepNavSelRange = "{180, 0}";
+			sepNavVisRange = "{0, 186}";
+		};
+	};
+	4FE85BE513001C3F00C58F33 /* HKLoginItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {866, 1360}}";
+			sepNavSelRange = "{602, 23}";
+			sepNavVisRange = "{2133, 599}";
+		};
+	};
+	4FE85C3D13001FDA00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABE12F1641F00BF6440 /* WeekView.m */;
+		name = "WeekView.m: 16";
+		rLen = 0;
+		rLoc = 152;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	4FE85C3E13001FDA00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */;
+		name = "WeekViewController.h: 13";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	4FE85C3F13001FDA00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABB12F1641F00BF6440 /* WeeklyAppDelegate.h */;
+		name = "WeeklyAppDelegate.h: 12";
+		rLen = 0;
+		rLoc = 294;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 0;
+	};
+	4FE85C5F1300217E00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		name = "WeekViewController.m: 77";
+		rLen = 2;
+		rLoc = 1868;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 1499;
+	};
+	4FE85C601300217E00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */;
+		name = "WeeklyAppDelegate.m: 65";
+		rLen = 0;
+		rLoc = 1311;
+		rType = 0;
+		vrLen = 456;
+		vrLoc = 941;
+	};
+	4FE85C641300269B00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */;
+		name = "WeeklyAppDelegate.m: 62";
+		rLen = 0;
+		rLoc = 1311;
+		rType = 0;
+		vrLen = 480;
+		vrLoc = 917;
+	};
+	4FE85C8813004CFC00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */;
+		name = "WeeklyAppDelegate.m: 40";
+		rLen = 0;
+		rLoc = 860;
+		rType = 0;
+		vrLen = 631;
+		vrLoc = 0;
+	};
+	4FE85C8913004CFC00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		name = "WeekViewController.m: 77";
+		rLen = 2;
+		rLoc = 1868;
+		rType = 0;
+		vrLen = 528;
+		vrLoc = 1451;
+	};
+	4FE85C8A13004CFC00C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		name = "WeekViewController.m: 16";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 722;
+		vrLoc = 105;
+	};
+	4FE85C9A13004DE100C58F33 /* WeekViewController.m:25 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		functionName = "-awakeFromNib";
+		hitCount = 2;
+		ignoreCount = 0;
+		lineNumber = 25;
+		location = Weekly;
+		modificationTime = 318787297.608042;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	4FE85CB513004EE300C58F33 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 4F1E9B4012F166FB00BF6440 /* Weekly-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/gustaf/Documents/Development/weekly/Weekly/Resources/Weekly-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	4FE85CB613004EE300C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */;
+		name = "WeekViewController.h: 6";
+		rLen = 16;
+		rLoc = 80;
+		rType = 0;
+		vrLen = 419;
+		vrLoc = 0;
+	};
+	4FE85CB713004EE300C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		name = "WeekViewController.m: 19";
+		rLen = 0;
+		rLoc = 359;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 142;
+	};
+	4FE85CB813004EE300C58F33 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F1E9AC012F1641F00BF6440 /* WeekViewController.m */;
+		name = "WeekViewController.m: 73";
+		rLen = 0;
+		rLoc = 1869;
+		rType = 0;
+		vrLen = 699;
+		vrLoc = 1251;
+	};
+	8D1107260486CEB800E47090 /* Weekly */ = {
+		activeExec = 0;
+		executables = (
+			4F17E36312F0C905009521EF /* Weekly */,
+		);
+	};
+}
