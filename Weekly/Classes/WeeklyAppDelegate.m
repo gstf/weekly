@@ -16,7 +16,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    NSStatusItem *statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:22.0f];
+    NSStatusItem *statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
     if ( !statusItem )
     {
         NSRunAlertPanel( @"Error", @"Timing status bar item could not be created", @"Error", nil, nil );
