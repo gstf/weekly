@@ -259,8 +259,8 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Weekly_Prefix.pch;
-				INFOPLIST_FILE = "Weekly-Info.plist";
+				GCC_PREFIX_HEADER = "Other Sources/Weekly_Prefix.pch";
+				INFOPLIST_FILE = "Resources/Weekly-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Weekly;
 			};
