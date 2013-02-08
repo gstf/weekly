@@ -2,13 +2,9 @@
 
 @class WeekViewController;
 
-@interface WeeklyAppDelegate : NSObject <NSApplicationDelegate>
-{
-    WeekViewController *weekViewController;
-    BOOL startAtLogin;
-}
+@interface WeeklyAppDelegate : NSObject<NSApplicationDelegate>
 
-@property (assign) IBOutlet WeekViewController *weekViewController;
+@property (weak) IBOutlet WeekViewController *weekViewController;
 @property (assign) BOOL startAtLogin;
 
 @end

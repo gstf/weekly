@@ -1,17 +1,21 @@
+
 #import "WeekViewController.h"
 
-@interface WeekViewController (Private)
+#import "WeekView.h"
+
+@interface WeekViewController()<WeekViewDelegate>
 
 - (void)updateWeekString;
 - (void)setupTimer;
 
 @end
 
-
 @implementation WeekViewController
-
-@synthesize weekString;
-@synthesize menu, statusItem;
+{
+@private
+    NSTimer         *_timer;
+    NSUInteger       _fontSize;
+}
 
 - (id)initWithCoder:(NSCoder *)coder
 {
@@ -26,12 +30,6 @@
 - (void)dealloc
 {
     [_timer invalidate];
-    [_timer release];
-
-    [weekString release];
-    [statusItem release];
-    [menu release];
-    [super dealloc];
 }
 
 #pragma mark Private
@@ -46,7 +44,7 @@
                                                     selector:@selector(updateWeekString)
                                                     userInfo:nil
                                                      repeats:YES];
-    _timer = [timer retain];
+    _timer = timer;
 }
 
 - (void)updateWeekString
@@ -57,16 +55,14 @@
 
     // change font size if there are two numbers in string
     _fontSize = ( [self.weekString length] == 1 ) ? 10 : 9;
-    [weekFormatter release];
 }
 
 - (void)setStatusItem:(NSStatusItem *)item
 {
-    if ( item != statusItem )
+    if ( item != _statusItem )
     {
-        [statusItem autorelease];
-        statusItem = [item retain];
-        [statusItem setView:[self view]];
+        _statusItem = item;
+        [_statusItem setView:[self view]];
     }
 }
 

@@ -1,18 +1,16 @@
 #import <Cocoa/Cocoa.h>
 
-@interface WeekView : NSView
-{
-    IBOutlet id delegate;
-    BOOL active;
-}
+@protocol WeekViewDelegate;
 
-@property (assign) id delegate;
-@property (assign) BOOL active;
+@interface WeekView : NSView
+
+@property (weak) id<WeekViewDelegate> delegate;
+@property (assign, nonatomic) BOOL active;
 
 @end
 
 
-@protocol WeekViewDelegate
+@protocol WeekViewDelegate<NSObject>
 
 @optional
 - (void)view:(WeekView *)theView mouseDown:(NSEvent *)theEvent;

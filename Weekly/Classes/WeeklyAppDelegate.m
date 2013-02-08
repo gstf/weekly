@@ -1,3 +1,4 @@
+
 #import "WeeklyAppDelegate.h"
 #import "WeekViewController.h"
 #import "HKLoginItem.h"
@@ -11,9 +12,6 @@
 
 @implementation WeeklyAppDelegate
 
-@synthesize weekViewController;
-@synthesize startAtLogin;
-
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     NSStatusItem *statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSSquareStatusItemLength];
@@ -23,16 +21,10 @@
         [NSApp terminate:self];
     }
 
-    weekViewController.statusItem = statusItem;
-    weekViewController.view.frame = NSMakeRect( 0.0f, 0.0f, [weekViewController view].frame.size.width, [weekViewController view].frame.size.height );
+    self.weekViewController.statusItem = statusItem;
+    self.weekViewController.view.frame = NSMakeRect( 0.0f, 0.0f, [self.weekViewController view].frame.size.width, [self.weekViewController view].frame.size.height );
 }
 
-- (void)dealloc
-{
-    [weekViewController release];
-
-    [super dealloc];
-}
 
 #pragma mark Overriden synthesized
 

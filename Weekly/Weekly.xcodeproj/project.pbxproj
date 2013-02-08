@@ -59,14 +59,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4FE85BE413001C3F00C58F33 /* HKLoginItem.h */,
+				4FE85BE513001C3F00C58F33 /* HKLoginItem.m */,
 				4F1E9ABB12F1641F00BF6440 /* WeeklyAppDelegate.h */,
 				4F1E9ABC12F1641F00BF6440 /* WeeklyAppDelegate.m */,
 				4F1E9ABD12F1641F00BF6440 /* WeekView.h */,
 				4F1E9ABE12F1641F00BF6440 /* WeekView.m */,
 				4F1E9ABF12F1641F00BF6440 /* WeekViewController.h */,
 				4F1E9AC012F1641F00BF6440 /* WeekViewController.m */,
-				4FE85BE413001C3F00C58F33 /* HKLoginItem.h */,
-				4FE85BE513001C3F00C58F33 /* HKLoginItem.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -239,6 +239,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -249,6 +251,7 @@
 				INFOPLIST_FILE = "Resources/Weekly-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Weekly;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -256,6 +259,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -263,6 +268,7 @@
 				INFOPLIST_FILE = "Resources/Weekly-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Weekly;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};

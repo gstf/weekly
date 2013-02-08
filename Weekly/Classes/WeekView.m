@@ -2,24 +2,18 @@
 
 @implementation WeekView
 
-@synthesize delegate;
-@synthesize active;
-
-- (void)dealloc
+- (void)setActive:(BOOL)active
 {
-    delegate = nil;
-    [super dealloc];
-}
-
-- (void)setActive:(BOOL)a
-{
-    active = a;
-    [self setNeedsDisplay:YES];
+    if ( active != _active )
+    {
+        _active = active;
+        [self setNeedsDisplay:YES];
+    }
 }
 
 - (void)drawRect:(NSRect)dirtyRect
 {
-    if ( active )
+    if ( self.active )
     {
         [[NSColor selectedMenuItemColor] setFill];
         NSRectFill(dirtyRect);
